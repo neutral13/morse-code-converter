@@ -28,7 +28,7 @@ if query == "2":
         morse = ''
         for char in text:
             if char == ' ':
-                morse += '   '
+                morse += '  '
             else:
                 morse += morse_code_dict[char] + ' '
         return morse
